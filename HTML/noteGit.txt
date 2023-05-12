@@ -1,0 +1,42 @@
+Git & github
+also known as vcs (version control system)
+
+Download "git scm download"
+git --> tool
+github ---> our account
+
+----------------------------------------
+Folder to store projects in Github --> Remote repository
+
+
+Folder to store projects in our system --> Local repository (Only if we have Git tool)
+
+---------------------------------------
+Operations
+1. Push (upload From local repository to remote repository when creating a new project or new updates)
+2. Clone (exact copy of the project uploaded in remote repository into local repository)
+3. Pull (getting some updates from remote repository)
+
+Push operation process
+-----------------------------------------
+1. git Add (Add project from LOCAL STORAGE to STAGING AREA)
+2. git commit (Add project from STAGING AREA to LOCAL REPOSOTORY)
+3. Push project from LOCAL REPOSITORY to REMOTE REPOSITORY
+
+Clone and pull can be done in just one step
+
+------------------------------------------------------------------
+Steps to keep in mind when we do Push operation
+1. The folder in the local storage contains only the files to be uploaded
+2. landing page (first page) should be named as "index.html"
+3. Image or file paths should be given as "./"
+4. Create remote repository in Github
+5. Get git bash here operation in the place where we have files to upload
+
+commands for Git
+--------------------------------------------------------------
+1. Initialize Git   "git init"  ---> generates a hidden ".git" folder 
+2. git status to know the status
+
+
+

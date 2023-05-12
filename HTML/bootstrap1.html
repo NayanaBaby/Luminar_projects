@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--margin and padding m mt mb ms me p pt pb ps pe 1 to 5 -->
+    <!-- text - bg - w-25 50 75 100 -->
+    <!--font size fs- 1 to 6 -->
+    <!-- (1 row 1 box)container class plus w-50 to make it to center //container w-50 -->
+    <div class="container-fluid">
+        <h1>Three equal width columns</h1>
+        <p>Note: Try to add a new div with class="col" inside the row class - this will create four equal-width columns.
+        </p>
+        <div class="row">
+            <div class="col" style="background-color:lavender;">.col</div>
+            <div class="col" style="background-color:orange;">.col</div>
+            <div class="col" style="background-color:lavender;">.col</div>
+        </div>
+        <div class="row">
+            <div class="col" style="background-color:blueviolet">.col</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color:aqua">.col</div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4" style="background-color:blue">.col-sm-4</div>
+                <div class="col-sm-8" style="background-color:cadetblue">.col-sm-8</div>
+            </div>
+        </div>
+
+        <!-- background and text colors for paragraph -->
+        <div class="container">
+            <h2>Contextual Backgrounds</h2>
+            <p>Use the contextual background classes to provide "meaning through colors".</p>
+            <p>Note that you can also add a .text-* class if you want a different text color:</p>
+            <p class="bg-primary text-white">This text is important.</p>
+            <p class="bg-success text-white">This text indicates success.</p>
+            <p class="bg-info text-white">This text represents some information.</p>
+            <p class="bg-warning text-white">This text represents a warning.</p>
+            <p class="bg-danger text-white">This text represents danger.</p>
+            <p class="bg-secondary text-white">Secondary background color.</p>
+            <p class="bg-dark text-white">Dark grey background color.</p>
+            <p class="bg-light text-dark">Light grey background color.</p>
+            <p class="bg-danger">Hello</p>
+        </div>
+
+        <!-- Table class -->
+        <div class="container">
+            <h2>Basic Table</h2>
+            <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+            <table class="table table-striped table-dark table-hover">
+                <thead>
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Biutton class -->
+        <div class="container">
+            <h2>Button Sizes</h2>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Default</button>
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+        </div>
+
+        <!-- Button group -->
+        <div class="container">
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary">Apple</button>
+                <button type="button" class="btn btn-primary">Samsung</button>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Sony</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="www.w3schools.com">hui</a>
+                        <a class="dropdown-item">hiiiii</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="container-fluid">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+            </ul>
+        </div>
+
+        <!-- Card -->
+        <div class="card">
+            <div class="card-header bg-primary">Header</div>
+            <div class="card-body bg-warning">Content</div>
+            <div class="card-footer bg-danger">Footer</div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">Some example text. Some example text.</p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+        </div>
+
+        <div class="card" sty;e="width:400px">
+            <img class="card-img-top" src="avatarimg.png" alt="card image">
+            <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+
+        </div>
+</body>
+
+</html>
